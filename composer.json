@@ -4,6 +4,7 @@
     "type": "library",
     "keywords": ["yii2","teamlex","retailcrm"],
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Timutsa Aleksandr",
