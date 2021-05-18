@@ -4,6 +4,7 @@ namespace teamlex;
 
 use app\modules\admin\models\Integration;
 use RetailCrm\ApiClient;
+use \app\modules\admin\models\User;
 
 /**
  * Class RetailCRM
@@ -22,7 +23,11 @@ class RetailCRM
         return new self();
     }
 
-    public function cutomer($user = 'sdf'){
+    /**
+     * @param $user User
+     * @return mixed
+     */
+    public function cutomer($user){
         return $user;
     }
 }
