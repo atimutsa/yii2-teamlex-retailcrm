@@ -1,0 +1,21 @@
+{
+    "name": "atimutsa/yii2-teamlex-retailcrm",
+    "description": "Расширение админки Teamlex CMS для работы с RetailCRM",
+    "type": "library",
+    "keywords": ["yii2","teamlex","retailcrm"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Timutsa Aleksandr",
+            "email": "a.timutsa@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "teamlex\\": ""
+        }
+    }
+}
