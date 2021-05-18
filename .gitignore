@@ -1,36 +1,33 @@
+# phpstorm project files
+.idea
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows
+# netbeans project files
+nbproject
 
-### Windows ###
-# Windows thumbnail cache files
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
 Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
 
-# Dump file
-*.stackdump
+# composer vendor dir
+/vendor
 
-# Folder config file
-[Dd]esktop.ini
+# composer itself is not needed
+composer.phar
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Mac DS_Store Files
+.DS_Store
 
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
 
-# Windows shortcuts
-*.lnk
+tests/_output/*
+tests/_support/_generated
 
-# End of https://www.toptal.com/developers/gitignore/api/windows
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml
-.idea/yii2-teamlex-retailcrm.iml
+#vagrant folder
+/.vagrant
