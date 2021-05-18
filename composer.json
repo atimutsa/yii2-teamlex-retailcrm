@@ -3,19 +3,23 @@
     "description": "Расширение админки Teamlex CMS для работы с RetailCRM",
     "type": "library",
     "keywords": ["yii2","teamlex","retailcrm"],
-    "license": "Apache-2.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Timutsa Aleksandr",
-            "email": "a.timutsa@yandex.ru"
+            "email": "a.timutsa@yandex.ru",
+            "homepage": "https://teamlex.ru",
+            "role": "Developer"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
-        "yiisoft/yii2": "~2.0.0"
+        "yiisoft/yii2": "~2.0.0",
+        "retailcrm/api-client-php": "~5.0"
     },
     "autoload": {
         "psr-4": {
-            "teamlex\\": ""
+            "teamlex\\retailcrm\\": ""
         }
     }
 }
